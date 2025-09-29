@@ -1,0 +1,58 @@
+@keyframes navbar-fade {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes navbar-slide {
+  from { box-shadow: none; }
+  to { box-shadow: 0 8px 32px 0 rgba(10,25,62,0.25); }
+}
+
+.animate-navbar-fade {
+  animation: navbar-fade 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+.animate-navbar-slide {
+  animation: navbar-slide 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+/* Custom animation keyframes for Hero section */
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in-down {
+  0% { opacity: 0; transform: translateY(-40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s cubic-bezier(0.4,0,0.2,1) both;
+}
+.animate-fade-in-down {
+  animation: fade-in-down 1s cubic-bezier(0.4,0,0.2,1) both;
+}
+.animate-bounce {
+  animation: bounce 1.2s infinite;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+/* Logo Scroller Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 15s linear infinite;
+}

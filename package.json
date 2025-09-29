@@ -1,0 +1,47 @@
+{
+  "name": "laitusneo-technologies-landing-page",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern, responsive landing page for Laitusneo Technologies built with React, TypeScript, and Vite",
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "landing-page",
+    "laitusneo",
+    "technologies"
+  ],
+  "author": "Laitusneo Technologies",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/laitusneo-main-website#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/laitusneo-main-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/laitusneo-main-website/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.1",
+    "react": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
