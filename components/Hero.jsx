@@ -288,12 +288,12 @@ const Hero = () => {
                 <div className="flex items-center justify-center w-24 h-12">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/HDFC_Bank_Logo.svg/2560px-HDFC_Bank_Logo.svg.png" alt="HDFC Bank" className="h-8 w-auto transition-all duration-300 hover:scale-110" />
                 </div>
-                <div className="flex items-center justify-center w-24 h-12">
+                {/* <div className="flex items-center justify-center w-24 h-12">
                   <img src="jio.png" alt="Jio Payments Bank" className="h-10 w-auto transition-all duration-300 hover:scale-110" />
-                </div>
-                <div className="flex items-center justify-center w-24 h-12">
+                </div> */}
+                {/* <div className="flex items-center justify-center w-24 h-12">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Axis_Bank_logo.svg/2560px-Axis_Bank_logo.svg.png" alt="Axis Bank" className="h-8 w-auto transition-all duration-300 hover:scale-110" />
-                </div>
+                </div> */}
               </div>
               
               {/* Duplicate Set for Seamless Loop */}
